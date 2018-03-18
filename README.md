@@ -24,7 +24,7 @@ Taught by [Andrew Ng](http://www.andrewng.org/)
 
 ![Logistic Regression Plot](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Logistic%20Regression/Logistic_regression.png "Logistic Regression Plot")
 
-* Example of L2 regularization: Shows how a low regularization term (0) results in overfitting and a large one (100) in underfiting
+* Example of L2 regularization: Shows how a low regularization term (0) results in overfitting and a large one (100) in underfiting, and lambda=1 showing the trade off minimizing the square mean distance or the weigth values, best fit for the model.
 
 ![Logistic Regression Plot with Lambda=0](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Logistic%20Regression/Logistic_regression_lambda0.png "Logistic Regression Plot with Lambda=0")
 ![Logistic Regression Plot with Lambda=1](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Logistic%20Regression/Logistic_regression_with_regularization.png "Logistic Regression Plot with Lambda=1")
