@@ -8,7 +8,7 @@ function [C, sigma] = dataset3Params(X, y, Xval, yval)
 %
 
 % You need to return the following variables correctly.
-C = 2;
+C = 0.3;
 sigma = 0.1;
 
 % ====================== YOUR CODE HERE ======================
