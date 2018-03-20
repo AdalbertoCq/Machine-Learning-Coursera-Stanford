@@ -34,7 +34,18 @@ Taught by [Andrew Ng](http://www.andrewng.org/)
 * [SVM](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/tree/master/Support%20Vector%20Machine)
 * Implemented a SVM spam email classifier.
 
-Example of SVM Linear Kernel, overfitted with high C
+* Example of SVM Linear Kernel, overfitted with high C
 ![Example of SVM Linear Kernel, overfitted with high C](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Support%20Vector%20Machine/images/SVM_linear_kernel_high_C.png "Example of SVM Linear Kernel")
-Example of SVM Gaussian Kernel
+* Example of SVM Gaussian Kernel
 ![Example of SVM Gaussian Kernel](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Support%20Vector%20Machine/images/SVM_gaussian_kernel.png "Example of SVM Gaussian Kernel")
+
+* Example of fitting a SVM: First image shows an underfit model for C=, sigma= . Second one, an overfitting model C=0.3, sigma= 0.03. And finally a good fit model C=0.3, sigma=0.1.
+* Increasing C pushes to minimize the error from the cost function, where sigma in the Gaussian kernel if increased pushed to minimize distance between the data point and landmark.
+
+![SVM Underfit](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Support%20Vector%20Machine/images/SVM_spam_classifier_underfit_C3_sigma_1.png "SVM Underfit")
+![SVM overfit](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Support%20Vector%20Machine/images/SVM_spam_classifier_overfit_C0_3_sigma_0_03.png "SVM Overfit")
+![SVM good fit](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Support%20Vector%20Machine/images/SVM_spam_classifier_good_fit_C0_3_sigma_0_1.png "SVM good fit")
+
+
+## K-means clustering and PCA
+* [K-means clustering and PCA](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/tree/master/K-means%20clustering%20and%20PCA)
