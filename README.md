@@ -39,8 +39,8 @@ Taught by [Andrew Ng](http://www.andrewng.org/)
 * Example of SVM Gaussian Kernel
 ![Example of SVM Gaussian Kernel](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Support%20Vector%20Machine/images/SVM_gaussian_kernel.png "Example of SVM Gaussian Kernel")
 
-* Example of fitting a SVM: First image shows an underfit model for C=, sigma= . Second one, an overfitting model C=0.3, sigma= 0.03. And finally a good fit model C=0.3, sigma=0.1.
-* Increasing C pushes to minimize the error from the cost function, where sigma in the Gaussian kernel if increased pushed to minimize distance between the data point and landmark.
+* Example of fitting a SVM: First image shows an underfit model for C=3, sigma=1. Second one, an overfitting model C=0.3, sigma= 0.03. And finally a good fit model C=0.3, sigma=0.1.
+* Increasing C pushes to minimize the error from the cost function, where sigma in the Gaussian kernel if decreased pushes to minimize distance between the data point and landmark.
 
 ![SVM Underfit](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Support%20Vector%20Machine/images/SVM_spam_classifier_underfit_C3_sigma_1.png "SVM Underfit")
 ![SVM overfit](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Support%20Vector%20Machine/images/SVM_spam_classifier_overfit_C0_3_sigma_0_03.png "SVM Overfit")
