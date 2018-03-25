@@ -27,8 +27,8 @@ Taught by [Andrew Ng](http://www.andrewng.org/)
 * Example of L2 regularization: Shows how a low regularization term (0) results in overfitting and a large one (100) in underfiting, and lambda=1 showing the trade off minimizing the square mean distance or the weigth values, best fit for the model.
 
 ![Logistic Regression Plot with Lambda=0](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Logistic%20Regression/images/Logistic_regression_reg_lambda_0.png "Logistic Regression Plot with Lambda=0")
-![Logistic Regression Plot with Lambda=100](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Logistic%20Regression/images/Logistic_regression_reg_lambda_0.png "Logistic Regression Plot with Lambda=100")
-![Logistic Regression Plot with Lambda=1](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Logistic%20Regression/images/Logistic_regression_reg_lambda_0.png "Logistic Regression Plot with Lambda=1")
+![Logistic Regression Plot with Lambda=100](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Logistic%20Regression/images/Logistic_regression_reg_lambda_100.png "Logistic Regression Plot with Lambda=100")
+![Logistic Regression Plot with Lambda=1](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Logistic%20Regression/images/Logistic_regression_reg_lambda_1.png "Logistic Regression Plot with Lambda=1")
 
 ## Support Vector Machine
 * [SVM](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/tree/master/Support%20Vector%20Machine)
