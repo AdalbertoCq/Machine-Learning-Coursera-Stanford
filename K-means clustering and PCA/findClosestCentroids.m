@@ -20,6 +20,20 @@ idx = zeros(size(X,1), 1);
 %
 % Note: You can use a for-loop over the examples to compute this.
 %
+for i=1:size(X,1),
+  closest_distance = 180000;
+  idx(i,:) = 0;
+  for j=1:K,
+    centroid = centroids(j,:);
+    distance = (X(i,:) - centroid).^2;
+    distance = sqrt(sum(distance, 2)); 
+    if distance < closest_distance,
+      idx(i,:) = j;
+      closest_distance = distance;
+    end;
+  end;
+end;
+    
 
 
 
