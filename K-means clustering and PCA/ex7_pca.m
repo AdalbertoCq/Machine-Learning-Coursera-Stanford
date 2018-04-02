@@ -18,7 +18,7 @@
 %  or any other files other than those mentioned above.
 %
 
-%% Initialization
+%% Initializatio
 clear ; close all; clc
 
 %% ================== Part 1: Load Example Dataset  ===================
@@ -33,7 +33,8 @@ load ('ex7data1.mat');
 
 %  Visualize the example dataset
 plot(X(:, 1), X(:, 2), 'bo');
-axis([0.5 6.5 2 8]); axis square;
+axis([0.5 6.5 2 8]);  
+% axis square;
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
@@ -80,7 +81,8 @@ fprintf('\nDimension reduction on example dataset.\n\n');
 
 %  Plot the normalized dataset (returned from pca)
 plot(X_norm(:, 1), X_norm(:, 2), 'bo');
-axis([-4 3 -4 3]); axis square
+axis([-4 3 -4 3]); 
+% axis square;
 
 %  Project the data onto K = 1 dimension
 K = 1;
@@ -167,13 +169,13 @@ X_rec  = recoverData(Z, U, K);
 subplot(1, 2, 1);
 displayData(X_norm(1:100,:));
 title('Original faces');
-axis square;
+% axis square;
 
 % Display reconstructed data from only k eigenfaces
 subplot(1, 2, 2);
 displayData(X_rec(1:100,:));
 title('Recovered faces');
-axis square;
+% axis square;
 
 fprintf('Program paused. Press enter to continue.\n');
 pause;
