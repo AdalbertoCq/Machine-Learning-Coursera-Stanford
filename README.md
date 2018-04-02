@@ -49,3 +49,15 @@ Taught by [Andrew Ng](http://www.andrewng.org/)
 
 ## K-means clustering and PCA
 * [K-means clustering and PCA](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/tree/master/K-means%20clustering%20and%20PCA)
+* Implemeneted K-Means and PCA Algorithms.
+* Example of K-Means centroid progression and point assigment: 1st Iteration and last 10th one.
+![K-Means Iter=1](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/K-means%20clustering%20and%20PCA/plots/K-Means_example_iter1.png "K-Means Iter=1")
+![K-Means Iter=10](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/K-means%20clustering%20and%20PCA/plots/K-Means_example_iter10.png "K-Means Iter=10")
+
+* Example of PCA dimension reduction: Eigonvectors over data set, and projection of data point on the reduced dimension.
+![PCA dim reduction](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/K-means%20clustering%20and%20PCA/plots/Eigonvectors%20over%20data%20set.png "PCA dim reduction")
+![PCA projected](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/K-means%20clustering%20and%20PCA/plots/Projection%20over%20reduced%20dimension.png "PCA projected.")
+
+* Example of K-Mean and PCA over data set: K-Means group assigment and PCA dimension reduction: 3-D to 2-D.
+![3-D](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/K-means%20clustering%20and%20PCA/plots/K-Means%20over%203D%20data%20set.png "3-D")
+![2-D](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/K-means%20clustering%20and%20PCA/plots/K-means%20data%20with%20PCA%20dim%20reduction.png "2-D")
