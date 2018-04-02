@@ -61,3 +61,7 @@ Taught by [Andrew Ng](http://www.andrewng.org/)
 * Example of K-Mean and PCA over data set: K-Means group assigment and PCA dimension reduction: 3-D to 2-D.
 ![3-D](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/K-means%20clustering%20and%20PCA/plots/K-Means%20over%203D%20data%20set.png "3-D")
 ![2-D](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/K-means%20clustering%20and%20PCA/plots/K-means%20data%20with%20PCA%20dim%20reduction.png "2-D")
+
+
+## Anomally Detection and Recommender Systems
+* [Anomally Detection and Recommender Systems](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/tree/master/Anomaly%20Detection%20and%20Recomenders%20Systems)
