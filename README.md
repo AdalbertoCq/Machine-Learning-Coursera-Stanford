@@ -63,5 +63,14 @@ Taught by [Andrew Ng](http://www.andrewng.org/)
 ![2-D](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/K-means%20clustering%20and%20PCA/plots/K-means%20data%20with%20PCA%20dim%20reduction.png "2-D")
 
 
-## Anomally Detection and Recommender Systems
-* [Anomally Detection and Recommender Systems](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/tree/master/Anomaly%20Detection%20and%20Recomenders%20Systems)
+## Anomaly Detection and Recommender Systems
+* [Anomaly Detection and Recommender Systems](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/tree/master/Anomaly%20Detection%20and%20Recomenders%20Systems)
+* Implemeneted anomaly detection with multi-variable gaussian distribution and recommender ystem.
+
+* Example of anomaly detection. This plot shows the gaussian distribution and how the data points are placed, red circles show the anomalies, p(x; u, covariance) < epsilon.
+![Anomaly detection](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Anomaly%20Detection%20and%20Recomenders%20Systems/plots/Mutlivariable%20gaussian%20distribution.png "Anomaly detection")
+
+* Example of recommender system: "This dataset consists of ratings on a scale of 1 to 5. The dataset has nu = 943 users, and
+nm = 1682 movies." This first plot shows the movie rating per user, second image shows how the system is able to find similar movies to the ones high rated by the same user. This is done after the implementation of the regularized cost, gradients, and training of the model.
+![Recommender Systems](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Anomaly%20Detection%20and%20Recomenders%20Systems/plots/Movie%20reviews%20space.png "Recommender Systems")
+![Recommender Systems](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Anomaly%20Detection%20and%20Recomenders%20Systems/plots/System%20recommedation.png "Recommender Systems")
