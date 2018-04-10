@@ -41,9 +41,13 @@ Theta_grad = zeros(size(Theta));
 %
 
 
+reviewed = (X*Theta'-Y).*R;
+Theta_reg = (lambda*0.5)*sum(sum(Theta.^2));
+X_reg = (lambda*0.5)*sum(sum(X.^2));
+J = 0.5*sum(sum(reviewed.^2)) + Theta_reg + X_reg;
 
-
-
+X_grad = reviewed*Theta + lambda*X;
+Theta_grad = reviewed'*X + lambda*Theta;
 
 
 
