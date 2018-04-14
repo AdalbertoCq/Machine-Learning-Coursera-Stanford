@@ -62,12 +62,44 @@ Theta2_grad = zeros(size(Theta2));
 %               and Theta2_grad from Part 2.
 %
 
+labels = zeros(m,num_labels);
+for i=1:m,
+  labels(i,y(i))=1;
+end
 
 
+l1 = ones(m,1);
+input1 = [l1 X];
+z1 = input1*Theta1';
+a1 = sigmoid(z1);
+l2 = ones(m,1);
+input2 = [l2 a1];
+z2 = input2*Theta2';
+y_hat = sigmoid(z2);
+
+cost = -labels.*log(y_hat) - (1-labels).*log(1-y_hat);
+
+s_cost = sum(cost, axis=2);
+t_cost = sum(s_cost, axis=1);
+
+quad_theta1 = Theta1.^2;
+quad_theta2 = Theta2.^2;
+quad_theta1(:,1) = [];
+quad_theta2(:,1) = [];
+reg1 = lambda.*0.5.*sum(sum(quad_theta1,axis=1),axis=2);
+reg2 = lambda.*0.5.*sum(sum(quad_theta2,axis=1),axis=2);
+J = (t_cost + reg1 + reg2)/m;
+
+for i=1:m,
+  Theta2_grad = Theta2_grad + ((sigmoidGradient(z2(i,:)).*(y_hat(i,:)-y(i,:)))'*input2(i,:));
+  a1_grad = (sigmoidGradient(z2(i,:)).*(y_hat(i,:)-y(i,:)))*Theta2;
+  a1_grad_ = a1_grad(2:end);
+  Theta1_grad = Theta1_grad + ((sigmoidGradient(z1(i,:)).*a1_grad_)'*input1(i,:));
+end
 
 
-
-
+Theta2_grad = Theta2_grad/m;
+Theta1_grad = Theta1_grad/m;
 
 
 
