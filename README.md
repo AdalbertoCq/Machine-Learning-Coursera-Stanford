@@ -30,6 +30,15 @@ Taught by [Andrew Ng](http://www.andrewng.org/)
 ![Logistic Regression Plot with Lambda=100](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Logistic%20Regression/images/Logistic_regression_reg_lambda_100.png "Logistic Regression Plot with Lambda=100")
 ![Logistic Regression Plot with Lambda=1](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Logistic%20Regression/images/Logistic_regression_reg_lambda_1.png "Logistic Regression Plot with Lambda=1")
 
+## Bias/Variance
+* [Logistic Regression & Regularization](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/tree/master/Regularized%20Linear%20Regression%20and%20Bias:Variance)
+* Implemented polynomial featurization, learning curve and validation curve plots.
+
+![Learning curve over linear regression.](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Regularized%20Linear%20Regression%20and%20Bias:Variance/plots/linear_regression_learning_curve.png "Learning curve over linear regression")
+![Polynomial Regression over training data.](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Regularized%20Linear%20Regression%20and%20Bias:Variance/plots/polynomial_regression.png "Polynomial Regression")
+![Learning curve over polynomial regression.](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Regularized%20Linear%20Regression%20and%20Bias:Variance/plots/polynomial_regression_learning_curve.png "Polynomial Regression over training data.")
+![Validation curve over linear regression for Lambda selection.](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/blob/master/Regularized%20Linear%20Regression%20and%20Bias:Variance/plots/linear_regresion_lambda_selection.png "Validation curve over linear regression for Lambda selection.")
+
 ## Support Vector Machine
 * [SVM](https://github.com/AdalbertoCq/Machine-Learning-Coursera-Stanford/tree/master/Support%20Vector%20Machine)
 * Implemented a SVM spam email classifier.
